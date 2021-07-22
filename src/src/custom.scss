@@ -4,6 +4,14 @@ $body-bg: #000;
 // Import Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap.scss";
 
+.text-blue {
+    color: #3a6daf;
+}
+.bg-lightblue {
+    background-color: rgb(210, 229, 255) !important;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
 .font-size {
     font-size: 1.25rem;
     font-family: "IBM Plex Sans", sans-serif;
@@ -24,7 +32,7 @@ $body-bg: #000;
     position: relative;
     top: -2rem !important;
     left: -2rem !important;
-    width: 33.5rem !important;
+    width: 34rem !important;
 }
 
 .progress-bar {
