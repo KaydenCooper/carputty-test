@@ -1,0 +1,32 @@
+// Override default variables before the import
+$body-bg: #000;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
+.font-size {
+    font-size: 1.25rem;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.h1-font {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.btn-secondary {
+    background-color: #1ecfbe !important;
+    border-color: #1ecfbe !important;
+}
+
+.progress-position {
+    position: relative;
+    top: -2rem !important;
+    left: -2rem !important;
+    width: 33.5rem !important;
+}
+
+.progress-bar {
+    background-color: #1ecfbe !important;
+}
